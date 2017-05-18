@@ -19,7 +19,7 @@ export default class FoodPage extends React.Component {
         <div className="food">
           <header style={headerStyle}/>
           <div className="picture-container">
-            <img src={`/img/${food.image}`}/>
+            <img className="img-responsive" src={`/img/${food.image}`}/>
             <h2 className="name">{food.name}</h2>
           </div>
           <section className="description">
